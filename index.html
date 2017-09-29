@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="IE=edge">
+	<title>Tomagatchi!!!</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+
+	<div id="head">
+		<img src="images/tomagotchi-logo.png" id="logo">
+	</div>
+
+	<div id="main" class="row">
+		<div id="stats" class="col-md-2">
+			<ul>
+				<li id="happiness"> HAPPINESS: &nbsp;&nbsp;&nbsp;4</li>
+				<li id="hunger">    HUNGER: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</li>
+				<li id="boredom">   BOREDOM: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</li>
+				<li id="sleepiness">SLEEPINESS: &nbsp;&nbsp;0</li>
+			</ul>
+		</div>
+
+		<div id="toy" class="col-md-6">
+			<img src="images/tomagatchi.png" id="screen">
+			<img src="images/tami.png" id="tami">
+			<input type="button" value="ON" id="onButton">
+		</div>
+
+		<div id="buttons" class="col-md-2">
+			<input type="button" value="FEED" id="feed">
+			<input type="button" value="PLAY" id="play">
+			<input type="button" value="SLEEP" id="sleep">
+			<input type="button" value="LIGHT" id="light">
+			<input type="button" value="MEDICINE" id="medicine">
+		</div>
+	</div>
+
+	<audio id="eat" src="media/eat.wav"></audio>
+	<audio id="event" src="media/event.wav"></audio>
+	<audio id="fun" src="media/play.wav"></audio>
+	<audio id="ill" src="media/sick.wav"></audio>
+	<audio id="meds" src="media/medicine.wav"></audio>	
+	<audio id="snore" src="media/sleep.wav"></audio>
+
+</body>
+
+	<script src="scripts/app.js"></script>
+	
+</html>

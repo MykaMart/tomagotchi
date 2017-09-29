@@ -1,0 +1,88 @@
+body {
+	background-image: url("../images/background.jpg");
+	background-size: cover;
+}
+
+input{
+	display: flex;
+	background-color: pink;
+	border-color: pink;
+	border-radius: 10px;
+	box-shadow: 10px 5px 5px black;
+	margin-top: 20px;
+	width: 60%;
+	height: 7%;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+
+#buttons {
+	display: flex;
+	align-self: flex-start;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#feed {
+	margin-top: 100px;
+}
+
+#happiness {
+	width: 200px;
+}
+#head {
+	display: flex;
+	justify-content: center;
+}
+
+#logo {
+	width: 40%;
+	height: 5%;
+}
+
+#main {
+	display: flex;
+	justify-content: center;
+}
+
+#onButton {
+	opacity: 0;
+	position: fixed;
+	margin-top: 485px;
+	width: 3%;
+	height: 40px;
+	z-index: 3000;
+}
+
+#screen {
+	width: auto:
+	height: auto;
+	max-width: 500px;
+	max-height: 595px
+}
+
+#stats {	display: flex;
+	align-self: flex-end;	font-family: 'Luckiest Guy', cursive;
+	font-size: 28px;
+	justify-content: left;
+	margin-bottom: 60px;
+	
+}
+#tami{
+	position: fixed;
+	margin-top: 175px;
+	width: 19%;
+	z-index: 2000;
+}
+
+#toy {
+	display: flex;
+	align-self: flex-start;
+	margin-top: 0;
+	justify-content: center;
+}
+
